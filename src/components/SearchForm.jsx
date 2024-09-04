@@ -29,7 +29,7 @@ const SearchForm = ({ onSearch }) => {
           onChange={(e) => setQuery(e.target.value)}
           placeholder='Enter a keyword'
         />
-        <button type='submit'></button>
+        <button type='submit'>Search!</button>
       </form>
       {error && <p role='alert'>{error}</p>}
     </>
